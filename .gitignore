@@ -1,0 +1,13 @@
+# cmake auto-generated files / folders
+Makefile
+CMakeCache.txt
+cmake_install.cmake
+CMakeFiles/*
+CTestTestfile.cmake
+DartConfiguration.tcl
+
+# testing
+Testing/**
+
+# executable
+main
