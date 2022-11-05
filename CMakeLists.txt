@@ -16,7 +16,6 @@ include(CTest)
 
 # enable valgrind checks
 set(CTEST_MEMORYCHECK_TYPE "valgrind")
-set(CTEST_MEMORYCHECK_COMMAND_OPTIONS "--leak-check=no")
 
 # single executable file
 add_executable(main ${SOURCES})
