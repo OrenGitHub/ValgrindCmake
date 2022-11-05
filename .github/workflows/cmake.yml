@@ -27,4 +27,4 @@ jobs:
  
     - name: Memcheck
       run: >
-          valgrind --leak-check=full --error-exitcode=1 ./main
+          valgrind --leak-check=no --error-exitcode=1 ./main
