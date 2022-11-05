@@ -27,4 +27,4 @@ jobs:
  
     - name: Memcheck
       run: >
-          ctest --overwrite MemoryCheckCommandOptions="--errors-for-leak-kinds=all --error-exitcode=1" -T memcheck
+          ctest --overwrite MemoryCheckCommandOptions="--error-exitcode=100" -T memcheck
